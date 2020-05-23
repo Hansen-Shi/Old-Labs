@@ -1,0 +1,158 @@
+
+Mine // FOR YOU TO DISCOVER
+
+*******************************
+PREORDER 
+|run, 5|
+|ocelot, 4|
+|bark, 3|
+|hello, 2|
+|go, 1|
+|is, 1|
+|punctilios, 1|
+|tuxedo, 2|
+|sibylic, 1|
+|vast, 1|
+*******************************
+INORDER 
+|bark, 3|
+|go, 1|
+|hello, 2|
+|is, 1|
+|ocelot, 4|
+|punctilios, 1|
+|run, 5|
+|sibylic, 1|
+|tuxedo, 2|
+|vast, 1|
+*******************************
+POSTORDER 
+|go, 1|
+|is, 1|
+|hello, 2|
+|bark, 3|
+|punctilios, 1|
+|ocelot, 4|
+|sibylic, 1|
+|vast, 1|
+|tuxedo, 2|
+|run, 5|
+
+
+
+PART TWO 
+|ocelot, 4|
+perforated not found 
+|sibylic, 1|
+|go, 1|
+
+
+*******************************
+PREORDER 
+|xray, 6|
+|jack, 5|
+|fa, 4|
+|dandelion, 3|
+|byte, 2|
+|apple, 1|
+|superthriller, 4|
+|noon, 3|
+|muddle, 2|
+|kindergartener, 1|
+|window, 1|
+|zoogeographical, 2|
+|youthsploitation, 1|
+*******************************
+INORDER 
+|apple, 1|
+|byte, 2|
+|dandelion, 3|
+|fa, 4|
+|jack, 5|
+|kindergartener, 1|
+|muddle, 2|
+|noon, 3|
+|superthriller, 4|
+|window, 1|
+|xray, 6|
+|youthsploitation, 1|
+|zoogeographical, 2|
+*******************************
+POSTORDER 
+|apple, 1|
+|byte, 2|
+|dandelion, 3|
+|fa, 4|
+|kindergartener, 1|
+|muddle, 2|
+|noon, 3|
+|window, 1|
+|superthriller, 4|
+|jack, 5|
+|youthsploitation, 1|
+|zoogeographical, 2|
+|xray, 6|
+
+
+Mine2 
+
+EXTRA CREDIT 
+|apple, 1|
+AFTER REMOVE:
+|byte, 1|
+|dandelion, 2|
+|fa, 3|
+|jack, 5|
+|kindergartener, 1|
+|muddle, 2|
+|noon, 3|
+|superthriller, 4|
+|window, 1|
+|xray, 6|
+|youthsploitation, 1|
+|zoogeographical, 2|
+
+NOW REMOVING |noon, 3|
+deleting may leave dangling SNodes
+AFTER REMOVE:
+|byte, 1|
+|dandelion, 2|
+|fa, 3|
+|jack, 4|
+|kindergartener, 1|
+|muddle, 2|
+|superthriller, 3|
+|window, 1|
+|xray, 5|
+|youthsploitation, 1|
+|zoogeographical, 2|
+
+NOW REMOVING |jack, 4|
+ tmp is kindergartener
+deleting may leave dangling SNodes
+AFTER REMOVE:
+|byte, 1|
+|dandelion, 2|
+|fa, 3|
+|kindergartener, 4|
+|muddle, 1|
+|superthriller, 2|
+|window, 1|
+|xray, 5|
+|youthsploitation, 1|
+|zoogeographical, 2|
+
+NOW REMOVING  tmp is youthsploitation
+deleting may leave dangling SNodes
+AFTER REMOVE:
+|byte, 1|
+|dandelion, 2|
+|fa, 3|
+|kindergartener, 4|
+|muddle, 1|
+|superthriller, 2|
+|window, 1|
+|youthsploitation, 5|
+|zoogeographical, 1|
+
+MineEC: // FOR YOU TO DISCOVER

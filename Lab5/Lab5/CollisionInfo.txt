@@ -1,0 +1,23 @@
+Hash 1, Collision 1:
+Collisionct1 = 4821
+Collisionct2 = 8421
+
+Hash 1, Collision 2:
+Collisionct1 = 4459
+Collisionct2 = 230316
+
+Hash 2, Collision 2:
+Collisionct1 = 8274
+Collisionct2 = 8827166
+
+Hash 2, Collision 1:
+Collisionct1 = 8260
+Collisionct2 = 156067
+
+Favorite Quotes:
+1. Congratulations! Today is funny!' So you don't. 
+2. So they the Lorax said this you hear? a rake! for the Sneetches had stars glumping under play
+3. Congratulations! Today is something 
+4. Today is just OH! THE him?...
+5. Today is not. could not, could do not that us 
+6. It's the turtles, he knocked You'll off four with me
